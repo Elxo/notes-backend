@@ -1,6 +1,4 @@
-/* src/components/dashboard.css */
 
-/* Card respects theme variables */
 .card {
   background: var(--color-card-bg);
   color: var(--color-text);
@@ -8,7 +6,7 @@
               color var(--transition-fast);
 }
 
-/* Skeleton loader respects theme */
+
 .dashboard-skeleton {
   background: var(--color-card-bg);
   padding: 2rem;

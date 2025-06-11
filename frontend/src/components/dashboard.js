@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import API from '../services/api';
-import './dashboard.css'; // create this for any extra dashboard styles
+import './dashboard.css'; 
 
 export default function Dashboard({ onLogout }) {
   const [user, setUser] = useState(null);

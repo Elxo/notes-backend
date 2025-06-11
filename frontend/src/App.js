@@ -18,13 +18,13 @@ import Notes     from './components/Notes';
 import heroBg    from './images/hero-bg.png';
 import './App.css';
 
-// Simple protected route wrapper
+
 function ProtectedRoute({ isAuth, children }) {
   if (!isAuth) return <Navigate to="/login" replace />;
   return children;
 }
 
-// Landing (home) view with hero + features + footer
+
 function Landing({ scrolled }) {
   return (
     <>
