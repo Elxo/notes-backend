@@ -1,0 +1,47 @@
+.auth-container {
+  min-height: 100vh;
+  display: flex; align-items: center; justify-content: center;
+  background: var(--color-bg);
+  padding: 1rem;
+}
+
+.auth-card {
+  background: var(--color-card-bg);
+  color: var(--color-text);
+  padding: 2rem; max-width: 400px; width: 100%;
+  border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: background var(--transition-fast), color var(--transition-fast);
+}
+
+.home-button {
+  text-align: right; margin-bottom: 1rem;
+}
+
+.home-icon {
+  width: 24px; height: 24px; cursor: pointer;
+  filter: var(--icon-filter);
+  transition: filter var(--transition-fast);
+}
+
+.auth-card h2 {
+  margin-bottom: 1.5rem; text-align: center;
+}
+
+.form-control {
+  width: 100%; background: var(--color-bg-light);
+  color: var(--color-text); border: 1px solid rgba(0,0,0,0.2);
+  margin-bottom: 1rem; padding: 0.75rem; border-radius: 4px;
+}
+
+.form-control:focus {
+  outline: none; box-shadow: 0 0 0 3px rgba(255,193,7,0.5);
+  border-color: var(--color-primary);
+}
+
+.btn {
+  margin-top: 0.5rem;
+}
+
+.switch-link {
+  text-align: center; margin-top: 1rem;
+}
