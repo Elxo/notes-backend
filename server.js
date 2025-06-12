@@ -7,6 +7,11 @@ const notesRoutes = require('./routes/notes');
 
 const app = express();
 
+app.use(cors({
+  origin: 'https://notes-v2-xi.vercel.app', // Replace with your actual Vercel domain
+  credentials: true
+}));
+
 // Middleware
 app.use(express.json());
 
